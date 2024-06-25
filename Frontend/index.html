@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bidones</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Bidones para el agua</h1>
+    </div>
+    <div>
+        <div>
+            <form id="data" class="formulario">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="pago">Pago:</label>
+                <input type="number" id="pago" name="pago" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+        <div class="test">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Pago</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Las nuevas filas se agregarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

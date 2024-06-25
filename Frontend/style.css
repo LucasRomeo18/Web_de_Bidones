@@ -1,0 +1,68 @@
+/* colores{
+    '50': '#f0f3fd',
+    '100': '#e4e9fb',
+    '200': '#cdd6f8',
+    '300': '#afbbf2',
+    '400': '#8f97ea',
+    '500': '#7476e0',
+    '600': '#6059d2',
+    '700': '#5249b9',
+    '800': '#423d94',
+    '900': '#3a3877',
+    '950': '#232145',
+},
+ */
+
+body{
+    background-color: #232145;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #5249b9;
+    height: 100px;
+}
+
+h1{
+    color: #e4e9fb;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    color: #e4e9fb;
+    margin-top: 20px;
+}
+
+.tabla_form{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #e4e9fb;
+    padding: 10px;
+    text-align: left;
+}
+
+.test{
+    margin-top: 20px;
+    text-align: center;
+    color: #e4e9fb;
+}
+
+#dataTable{
+    margin: 0 auto;
+}
+
+#dataTable th, #dataTable td{
+    padding: 8px;
+    text-align: center;
+}
